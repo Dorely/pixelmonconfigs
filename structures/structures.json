@@ -1,0 +1,180 @@
+{
+  "towns": [
+    {
+      "id": "towncenter1",
+      "filename": "pokecenter1.snapshot",
+      "weighting": 20,
+      "depth": 2,
+      "maxnum": 1,
+      "npcs": [
+        {
+          "type": "NurseJoy",
+          "x": 9,
+          "y": 3,
+          "z": 7
+        }
+      ]
+    },
+    {
+      "id": "townmart1",
+      "filename": "pokemart1.snapshot",
+      "weighting": 20,
+      "maxnum": 1,
+      "depth": 1,
+      "npcs": [
+        {
+          "type": "Shopkeeper",
+          "data": "Main",
+          "x": 10,
+          "y": 3,
+          "z": 5
+        },
+        {
+          "type": "Shopkeeper",
+          "data": "Secondary",
+          "x": 10,
+          "y": 3,
+          "z": 4
+        }
+      ]
+    }
+  ],
+  "gyms": [
+    {
+      "id": "electricgym",
+      "filename": "electricgym.snapshot",
+      "npcdata": "electricgym.json",
+      "depth": 2
+    },
+    {
+      "id": "firegym",
+      "filename": "firegym.snapshot",
+      "npcdata": "firegym.json",
+      "depth": 7
+    },
+    {
+      "id": "firegym2",
+      "filename": "firegym2.snapshot",
+      "npcdata": "firegym2.json",
+      "depth": 2
+    },
+    {
+      "id": "flyinggym",
+      "filename": "flyinggym.snapshot",
+      "npcdata": "flyinggym.json",
+      "depth": 2
+    },
+    {
+      "id": "grassgym",
+      "filename": "grassgym.snapshot",
+      "npcdata": "grassgym.json",
+      "depth": 8
+    },
+    {
+      "id": "grassbuggym",
+      "filename": "grassbuggym.snapshot",
+      "npcdata": "grassbuggym.json",
+      "depth": 2
+    },
+    {
+      "id": "groundgym",
+      "filename": "groundgym.snapshot",
+      "npcdata": "groundgym.json",
+      "depth": 2
+    },
+    {
+      "id": "icegym",
+      "filename": "icegym.snapshot",
+      "npcdata": "icegym.json",
+      "depth": 3
+    },
+    {
+      "id": "icegym2",
+      "filename": "icegym2.snapshot",
+      "npcdata": "icegym2.json",
+      "depth": 4
+    },
+    {
+      "id": "psychicgym",
+      "filename": "psychicgym.snapshot",
+      "npcdata": "psychicgym.json",
+      "depth": 2
+    },
+    {
+      "id": "rockgym",
+      "filename": "rockgym.snapshot",
+      "npcdata": "rockgym.json",
+      "depth": 2
+    },
+    {
+      "id": "steelgym",
+      "filename": "steelgym.snapshot",
+      "npcdata": "steelgym.json",
+      "depth": 2
+    },
+    {
+      "id": "watergym",
+      "filename": "watergym.snapshot",
+      "npcdata": "watergym.json",
+      "depth": 3
+    },
+    {
+      "id": "watergym2",
+      "filename": "watergym2.snapshot",
+      "npcdata": "watergym2.json",
+      "depth": 3
+    }
+    
+  ],
+  "standalone":[
+    {
+      "id": "center1",
+      "filename": "pokecenter1.snapshot",
+      "biomes": [ "Plains", "Forest", "Taiga", "Birch Forest", "Roofed Forest", "Mega Taiga", "Savanna" ],
+      "rarity": 20,
+      "depth": 2
+    },
+    {
+      "id": "center2",
+      "filename": "pokecenter2.snapshot",
+      "biomes": [ "Ice Plains", "Cold Taiga", "Ice Plains Spikes" ],
+      "rarity": 20,
+      "depth": 1
+    },
+    {
+      "id": "center3",
+      "filename": "pokecenter3.snapshot",
+      "biomes": [ "Forest", "Taiga", "Birch Forest", "Roofed Forest", "Mega Taiga" ],
+      "rarity": 20,
+      "depth": 1
+    },
+    {
+      "id": "iceshrine",
+      "filename": "shrine1.snapshot",
+      "biomes": [ "Ice Plains Spikes",	"Ice Plains",	"Ice Mountains",	"Cold Taiga M" ],
+      "rarity": 20,
+      "depth": 0
+    },
+    {
+      "id": "lightningshrine",
+      "filename": "shrine2.snapshot",
+      "biomes": [ "Savanna Plateau", "Savanna M",	"Savanna Plateau M" ],
+      "rarity": 20,
+      "depth": 0
+    },
+    {
+      "id": "fireshrine",
+      "filename": "shrine3.snapshot",
+      "biomes": [ "Mesa Plateau M", "Mesa Plateau F M", "Mesa Plateau F", "Mesa Plateau" ],
+      "rarity": 20,
+      "depth": 0
+    },
+    {
+      "id": "hauntedtower",
+      "filename": "hauntedtower.snapshot",
+      "biomes": [ "Forest", "Birch Forest", "Roofed Forest", "Swampland" ],
+      "rarity": 20,
+      "depth": 1
+    }
+  ]
+}
